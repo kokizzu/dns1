@@ -19,3 +19,13 @@ require (
 	golang.org/x/sync v0.21.0 // indirect
 	golang.org/x/sys v0.46.0 // indirect
 )
+
+exclude github.com/docker/docker v23.0.3+incompatible
+
+exclude github.com/docker/cli v23.0.3+incompatible
+
+exclude github.com/opencontainers/runc v1.1.6
+
+exclude github.com/gofiber/fiber/v2 v2.42.0
+
+exclude golang.org/x/crypto v0.8.0
